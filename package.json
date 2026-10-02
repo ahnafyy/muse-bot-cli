@@ -1,0 +1,36 @@
+{
+  "name": "muse-bot-cli",
+  "version": "0.1.0",
+  "description": "A macOS CLI bridge for Muse messaging, events, and browser automation.",
+  "type": "module",
+  "bin": {
+    "mbot": "src/bin/muse.mjs",
+    "muse": "src/bin/muse.mjs"
+  },
+  "files": [
+    "src",
+    "native",
+    "scripts/build-native.mjs",
+    "docs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "scripts": {
+    "build:native": "node scripts/build-native.mjs",
+    "postinstall": "node scripts/build-native.mjs",
+    "test": "node --test",
+    "check": "node scripts/check.mjs"
+  },
+  "keywords": [
+    "muse",
+    "cli",
+    "agent",
+    "automation"
+  ],
+  "license": "UNLICENSED"
+}
