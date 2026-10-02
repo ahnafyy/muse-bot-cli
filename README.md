@@ -155,6 +155,14 @@ npm test
 npm run check
 ```
 
+## Contributing
+
+Issues and pull requests are welcome. Create a focused branch, include tests for behavioral changes, and run `npm test` and `npm run check` before opening a pull request. Unless stated otherwise, contributions submitted to this repository are licensed under the MIT License.
+
+## License
+
+This project is open source under the [MIT License](LICENSE).
+
 ## Disclaimer and Limitation of Liability
 
 This software is provided **“as is” and “as available,” without warranties of any kind**, express or implied. Use it entirely at your own risk.

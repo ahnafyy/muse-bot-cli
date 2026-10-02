@@ -1,6 +1,6 @@
 {
   "name": "muse-bot-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A macOS CLI bridge for Muse messaging, events, and browser automation.",
   "type": "module",
   "bin": {
@@ -11,7 +11,8 @@
     "native",
     "scripts/build-native.mjs",
     "docs",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=22.0.0"
@@ -31,5 +32,13 @@
     "agent",
     "automation"
   ],
-  "license": "UNLICENSED"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahnafyy/muse-bot-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahnafyy/muse-bot-cli/issues"
+  },
+  "homepage": "https://github.com/ahnafyy/muse-bot-cli#readme",
+  "license": "MIT"
 }
