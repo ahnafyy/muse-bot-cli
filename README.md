@@ -25,10 +25,10 @@ This project is experimental. Muse's private interfaces and accessibility tree m
 
 ## Usage
 
-Link the executable from the repository:
+Install the package globally:
 
 ```sh
-npm link
+npm install --global muse-bot-cli
 ```
 
 Commands use the `mbot <group> <action>` form:
@@ -47,9 +47,7 @@ printf '%s' 'Summarize the current task' | mbot chat ask 120 --json
 printf '%s' 'Research this in a fresh chat' | mbot delegate run 180 --json
 ```
 
-### Native Muse UI
-
-`mbot` includes a Swift Accessibility helper modeled after Grok Bot's local computer-use architecture. It reads the focused Muse window directly; it does not use AppleScript or extract Muse credentials.
+### Commands
 
 ```sh
 mbot ui request-permission
@@ -148,6 +146,8 @@ Not yet available:
 
 The native helper provides working access to the visible production Muse UI. The in-app bridge prototype remains blocked because Muse 4.1 build `1077426479` does not appear as an inspectable application. Direct transport operations remain unavailable or `capture_required`; the CLI does not imitate successful dispatch.
 
+See [docs/protocol.md](docs/protocol.md) for architecture and compatibility details, [docs/native-helper.md](docs/native-helper.md) for production UI access, [docs/bridge.md](docs/bridge.md) for the agent protocol, [docs/grok-parity.md](docs/grok-parity.md) for the capability comparison, [docs/in-app-bridge.md](docs/in-app-bridge.md) for the blocked attachment prototype, and [docs/security.md](docs/security.md) for trust boundaries and disclosure guidance.
+
 ## Development
 
 ```sh
@@ -166,5 +166,3 @@ You are responsible for reviewing prompts and actions, protecting your account a
 ## Trademark or Takedown Concerns
 
 If you represent Meta, the Muse team, or another rights holder and believe this project creates a trademark, copyright, security, or other concern, please [open an issue](https://github.com/ahnafyy/muse-bot-cli/issues/new) or contact [@ahnafyy](https://github.com/ahnafyy) through GitHub.
-
-See [docs/protocol.md](docs/protocol.md) for architecture and compatibility details, [docs/native-helper.md](docs/native-helper.md) for production UI access, [docs/bridge.md](docs/bridge.md) for the agent protocol, [docs/grok-parity.md](docs/grok-parity.md) for the capability comparison, [docs/in-app-bridge.md](docs/in-app-bridge.md) for the blocked attachment prototype, and [docs/security.md](docs/security.md) for trust boundaries and disclosure guidance.

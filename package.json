@@ -4,8 +4,7 @@
   "description": "A macOS CLI bridge for Muse messaging, events, and browser automation.",
   "type": "module",
   "bin": {
-    "mbot": "src/bin/muse.mjs",
-    "muse": "src/bin/muse.mjs"
+    "mbot": "src/bin/mbot.mjs"
   },
   "files": [
     "src",
