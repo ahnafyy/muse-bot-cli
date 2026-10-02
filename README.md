@@ -155,8 +155,16 @@ npm test
 npm run check
 ```
 
+## Disclaimer and Limitation of Liability
+
+This software is provided **“as is” and “as available,” without warranties of any kind**, express or implied. Use it entirely at your own risk.
+
+To the maximum extent permitted by applicable law, the project author and contributors are not liable for any direct, indirect, incidental, special, consequential, or exemplary damages arising from use or misuse of this software. This includes automated actions, inaccurate agent output, account restrictions, data loss, security incidents, service interruption, purchases, messages, or other actions performed through Muse.
+
+You are responsible for reviewing prompts and actions, protecting your account and data, and complying with applicable laws and third-party terms. You should supervise consequential workflows and independently verify agent output before relying on it.
+
 ## Trademark or Takedown Concerns
 
-If you represent Meta, the Muse team, or another rights holder and believe this project creates a trademark, copyright, security, or other concern, please [open an issue](https://github.com/ahnafyy/muse-bot-cli/issues/new) or contact [@ahnafyy](https://github.com/ahnafyy) through GitHub. Please identify the material and concern clearly; it will be reviewed promptly and in good faith.
+If you represent Meta, the Muse team, or another rights holder and believe this project creates a trademark, copyright, security, or other concern, please [open an issue](https://github.com/ahnafyy/muse-bot-cli/issues/new) or contact [@ahnafyy](https://github.com/ahnafyy) through GitHub.
 
 See [docs/protocol.md](docs/protocol.md) for architecture and compatibility details, [docs/native-helper.md](docs/native-helper.md) for production UI access, [docs/bridge.md](docs/bridge.md) for the agent protocol, [docs/grok-parity.md](docs/grok-parity.md) for the capability comparison, [docs/in-app-bridge.md](docs/in-app-bridge.md) for the blocked attachment prototype, and [docs/security.md](docs/security.md) for trust boundaries and disclosure guidance.
